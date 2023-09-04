@@ -9,8 +9,15 @@ It leverages the rateless property of fountain code to encode each data object i
 Simulations and large-scale EC2 experiments demonstrate that Sanata provides close-to-ideal mean-time-to-data-loss (MTTDL) with
 low storage redundancy, scales to more than 10,000 nodes, and attains performance comparable to IPFS.
 
-### ⛱ Components
+### ⛱ Approach
  - Rateless Fountain Code
  - Verifiable Randomness
- -  Dual-Layer Erasure Coding
+ - Dual-Layer Erasure Coding
 
+### 🏗️Protocol Design
+#### Object Store
+![Object](https://github.com/sanata-project/.github/blob/c9b6657bd02ca7fa20c45d6c03fe89dfbb37fb85/sanata%20object%20store.png)
+#### Randomized Peer Selection
+![Selection](https://github.com/sanata-project/.github/blob/c9b6657bd02ca7fa20c45d6c03fe89dfbb37fb85/Randomized%20peer%20selection.png)
+#### Chunk Repair
+![Repair](https://github.com/sanata-project/.github/blob/c9b6657bd02ca7fa20c45d6c03fe89dfbb37fb85/Chunk%20repair.png)
