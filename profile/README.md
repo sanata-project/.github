@@ -1,8 +1,6 @@
 ## Hey, welcome to the Sanata Protocol 🐬 👋
 
 ### 😎 What is Sanata
-The lack of centralized control, combined with highly dynamic adversarial behaviors, makes data durability a challenge in decentralized storage systems.
-
 Sanata protocol is created by [Advaita Labs](https://advaita.xyz/), offers strong data durability guarantees in a fully decentralized, permissionless setting. 
 It leverages the rateless property of fountain code to encode each data object into an infinite stream of encoding fragments. To ensure durability in the presence of dynamic Byzantine behaviors and targeted attacks, an infinite sequence of storage nodes are randomly selected to store encoding fragments. Encoding generation and candidate selection are fully decentralized.
 
